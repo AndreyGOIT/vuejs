@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <PageTitle></PageTitle>
+  <div id="App">
+    <ButtonT>Click me</ButtonT>
+  </div>
 </template>
 
 <script>
-import PageTitle from "./components/PageTitle";
+import ButtonT from "./components/ButtonTempl.vue";
 
 export default {
   name: "App",
   components: {
-    PageTitle,
+    ButtonT,
   },
 };
 </script>
